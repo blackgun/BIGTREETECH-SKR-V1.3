@@ -710,7 +710,7 @@
  * following movement settings. If fewer factors are given than the
  * total number of extruders, the last value applies to the rest.
  */
-//#define DISTINCT_E_FACTORS
+#define DISTINCT_E_FACTORS
 
 /**
  * Default Axis Steps Per Unit (steps/mm)
@@ -718,7 +718,7 @@
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
 // #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 93 }
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 800, 186 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 800, 186 , 764 } //8mm Titan 3:1
 
 /**
  * Default Max Feed Rate (mm/s)
